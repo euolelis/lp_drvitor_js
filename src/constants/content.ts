@@ -18,27 +18,22 @@ export const HERO_CONTENT = {
       description: "Busca do potencial máximo nos treinos e alcance de metas de performance com acompanhamento médico.",
       tags: ["HIPERTROFIA", "TREINO"],
     },
-    {
-      id: "03",
-      title: "Hipogonadismo",
-    description: "Combate ao desânimo e baixa libido causados por baixas hormonais (testosterona e outros).",
-    tags: ["REPOSIÇÃO", "VITALIDADE"],
-    },
+
 
     {
-      id: "04",
+      id: "03",
       title: "Tireoide",
       description: "Investigação completa de hipotireoidismo, hipertireoidismo, nódulos e tireoidites com ultrassonografia integrada.",
       tags: ["TSH", "ULTRASSOM", "PAAF"],
     },
     {
-      id: "05",
+      id: "04",
       title: "Longevidade Saudável",
       description: "Medicina preventiva orientada por dados, avaliação de risco cardiometabólico e otimização hormonal sustentável.",
       tags: ["HEALTHSPAN", "PAINEL METABÓLICO"],
     },
     {
-      id: "06",
+      id: "05",
       title: "Distúrbios Adrenais",
       description: "Diagnóstico de cortisol, fadiga adrenal verdadeira e síndromes raras com investigação laboratorial completa.",
       tags: ["CORTISOL", "ALDOSTERONA"],
@@ -61,7 +56,7 @@ export const HERO_CONTENT = {
   
   export const STATS = [
     { label: "ANOS DE PRÁTICA CLÍNICA", value: "6+" },
-    { label: "PACIENTES ATENDIDOS", value: "8.000" },
+    { label: "PACIENTES ATENDIDOS", value: "15.000" },
     { label: "SATISFAÇÃO EM RETORNO", value: "98%" },
   ];
 

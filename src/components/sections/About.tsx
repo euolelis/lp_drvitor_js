@@ -6,13 +6,12 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <section id="sobre" className="relative py-32 lg:py-48 px-6 lg:px-20 bg-brand-beige overflow-hidden">
-      {/* Elemento Decorativo de Fundo - Círculo Áureo Sutil */}
+      {/* Elemento Decorativo de Fundo */}
       <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[60%] h-[80%] border border-brand-gold/5 rounded-full pointer-events-none -mr-[20%]" />
 
       <div className="max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-13 gap-12 lg:gap-0 items-center">
           
-          {/* BLOCO DE TEXTO (Ocupa 5/13 - Proporção Menor) */}
           <div className="lg:col-span-5 z-20">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -33,7 +32,9 @@ export default function About() {
                   &quot;Endocrinologia é, antes de tudo, escutar com profundidade. Cada hormônio conta uma história.&quot;
                 </p>
                 <p className="pl-8">
-                  Formado pela USP com especialização pela SBEM, o Dr. Vitor de Castro une investigação clínica rigorosa à tecnologia diagnóstica de ponta para construir planos terapêuticos singulares.
+                  Formado pela Formado pela Universidade de Vassouras-RJ, Pós-Graduado em Endocrinologia e Metabologia, o Dr. Vitor tem objetivo é trazer conscientização em saúde e envelhecimento saudável, proporcionando qualidade de vida para meus pacientes, com uma medicina baseada em evidencias e sem mistérios.
+
+
                 </p>
                 <div className="pt-4 pl-8">
                   <a href="#contato" className="text-[10px] font-bold tracking-[0.3em] text-brand-dark border-b border-brand-gold pb-2 hover:text-brand-gold transition-colors">
@@ -67,7 +68,7 @@ export default function About() {
               </motion.div>
             </div>
 
-            {/* STATS FLUTUANTES - Posicionados via Proporção Áurea */}
+            {/* STATS FLUTUANTES */}
             <div className="absolute inset-0 z-30">
               
               {/* Card 01 - Superior Direito (Foco na Prática) */}
