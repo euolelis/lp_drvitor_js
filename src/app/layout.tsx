@@ -28,6 +28,35 @@ export const metadata: Metadata = {
     "Reposição Hormonal em São José dos Campos", 
     "Dr Vitor de Castro"
   ],
+  authors: [{ name: "Dr. Vitor de Castro" }],
+  creator: "LYP IA® Soluções de Tecnologia e Marketing",
+
+// Open Graph (WhatsApp, Facebook, Instagram)
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "https://www.drvitordecastro.com.br",
+    title: "Dr. Vitor de Castro | Medicina de Precisão",
+    description: "Transforme sua saúde com acompanhamento médico especializado em Emagrecimento e Performance.",
+    siteName: "Dr. Vitor de Castro",
+    images: [
+      {
+        url: "/dr-vitor-about.jpeg", 
+        width: 1200,
+        height: 630,
+        alt: "Dr. Vitor de Castro - Medicina de Precisão",
+      },
+    ],
+  },
+
+  // Twitter / X
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr. Vitor de Castro | Medicina de Precisão",
+    description: "Especialista em Emagrecimento e Performance.",
+    images: ["/dr-vitor-about.jpeg"],
+  },
+
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
