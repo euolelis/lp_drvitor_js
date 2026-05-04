@@ -1,5 +1,5 @@
 export const HERO_CONTENT = {
-    crm: "ENDOCRINOLOGIA • CRM:213499-SP",
+    crm: "DR VITOR DE CASTRO • CRM:213499-SP",
     title: "Medicina de precisão para um corpo em equilíbrio.",
     subtitle: "Ajudo você a caminhar para sua melhor fase, através de uma medicina baseada em evidências e sem mistérios.",
   };
@@ -14,8 +14,8 @@ export const HERO_CONTENT = {
       },
     {
       id: "02",
-      title: "Performance",
-      description: "Busca do potencial máximo nos treinos e alcance de metas de performance com acompanhamento médico.",
+      title: "Reposição Hormonal Masculina e Feminina.",
+      description: "Homens com disturbios hormonais de testosterona e mulheres no climatério e menopausa.",
       tags: ["HIPERTROFIA", "TREINO"],
     },
 
@@ -30,12 +30,12 @@ export const HERO_CONTENT = {
       id: "04",
       title: "Longevidade Saudável",
       description: "Medicina preventiva orientada por dados, avaliação de risco cardiometabólico e otimização hormonal sustentável.",
-      tags: ["HEALTHSPAN", "PAINEL METABÓLICO"],
+      tags: ["Investigaçao Hormonal", "Metabólica"],
     },
     {
       id: "05",
-      title: "Distúrbios Adrenais",
-      description: "Diagnóstico de cortisol, fadiga adrenal verdadeira e síndromes raras com investigação laboratorial completa.",
+      title: "Diabetes",
+      description: "Tratamento do Diabetes tipo 1 e 2.",
       tags: ["CORTISOL", "ALDOSTERONA"],
     },
   ];
@@ -50,7 +50,7 @@ export const HERO_CONTENT = {
     {
       city: "SÃO JOSÉ DOS CAMPOS",
       address: "Atendimento presencial em São José dos Campos.",
-      whatsapp: "https://wa.me/5512988743885?text=Olá! Vim do site e gostaria de agendar uma consulta em São José com o Dr. Vitor",
+      whatsapp: "https://wa.me/5512988743885?text=Olá! Vim do site e gostaria de agendar uma consulta com o Dr. Vitor",
     },
   ];
   

@@ -66,6 +66,7 @@ Quanto melhor orientado o paciente é, mais fácil fica para atingirmos, juntos,
                   fill
                   className="object-contain z-10"
                   priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 550px"
                 />
                 {/* Sombra interna para profundidade */}
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-beige via-transparent to-transparent z-20" />

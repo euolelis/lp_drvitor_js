@@ -1,8 +1,8 @@
 import { SPECIALTIES } from "@/constants/content";
 
 export default function Specialties() {
-  return (
-    <section className="bg-brand-dark text-white py-32 px-6 lg:px-20">
+  return ( 
+    <section id="especialidades" className="bg-brand-dark text-white py-32 px-6 lg:px-20">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-8">
           <div>
