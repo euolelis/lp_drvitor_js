@@ -32,9 +32,13 @@ export default function About() {
                   &quot;Endocrinologia é, antes de tudo, escutar com profundidade. Cada hormônio conta uma história.&quot;
                 </p>
                 <p className="pl-8">
-                  Formado pela Formado pela Universidade de Vassouras-RJ, Pós-Graduado em Endocrinologia e Metabologia, o Dr. Vitor tem objetivo é trazer conscientização em saúde e envelhecimento saudável, proporcionando qualidade de vida para meus pacientes, com uma medicina baseada em evidencias e sem mistérios.
+                Nascido na cidade de Ubá-MG, Formado pela Universidade de Vassouras-RJ, Pós-Graduado em Endocrinologia e Metabologia.
+​
+Meu objetivo é trazer conscientização em saúde e envelhecimento saudável, proporcionando qualidade de vida para meus pacientes, com uma medicina personalizada e sem mistérios.
 
-
+Penso que a decisão em todas condutas seja produto da troca entre paciente e médico e levo isso como objetivo profissional.
+ 
+Quanto melhor orientado o paciente é, mais fácil fica para atingirmos, juntos, o objetivo desejado.
                 </p>
                 <div className="pt-4 pl-8">
                   <a href="#contato" className="text-[10px] font-bold tracking-[0.3em] text-brand-dark border-b border-brand-gold pb-2 hover:text-brand-gold transition-colors">
@@ -57,7 +61,7 @@ export default function About() {
                 className="relative w-full h-full"
               >
                 <Image 
-                  src="/dr-vitor-about.png" 
+                  src="/dr-vitor-about.jpeg" 
                   alt="Dr. Vitor de Castro"
                   fill
                   className="object-contain z-10"
