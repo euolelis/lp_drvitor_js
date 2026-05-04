@@ -5,7 +5,6 @@ export const HERO_CONTENT = {
   };
   
   export const SPECIALTIES = [
-    
     {
         id: "01",
         title: "Emagrecimento",
@@ -14,12 +13,10 @@ export const HERO_CONTENT = {
       },
     {
       id: "02",
-      title: "Reposição Hormonal Masculina e Feminina.",
+      title: "Reposição Hormonal Masculina e Feminina",
       description: "Homens com disturbios hormonais de testosterona e mulheres no climatério e menopausa.",
-      tags: ["HIPERTROFIA", "TREINO"],
+      tags: ["QUALIDADE DE VIDA", "SAÚDE"],
     },
-
-
     {
       id: "03",
       title: "Tireoide",
@@ -36,7 +33,7 @@ export const HERO_CONTENT = {
       id: "05",
       title: "Diabetes",
       description: "Tratamento do Diabetes tipo 1 e 2.",
-      tags: ["CORTISOL", "ALDOSTERONA"],
+      tags: ["RESISTÊNCIA INSULÍNICA"],
     },
   ];
 
